@@ -1,0 +1,111 @@
+/* *{
+    outline: 2px rgb(255, 0, 0) dashed;
+} */
+
+
+:root {
+    /* NOTE potential to be amusing here */
+    /* --backgroundColor: rgb(calc(), calc(), calc()) */
+    
+    --backgroundColor: rgb(69, 125, 199);
+    --highlightColor: rgb(160, 189, 277);
+    --font: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    align-items: end;
+    justify-content: end;
+}
+
+header{
+    margin: 0;
+    background-color: var(--backgroundColor);
+    min-height: 10vh;
+    justify-content: end;
+    flex: 1;
+}
+
+
+        
+
+main{
+    min-height: 80vh;
+    /* min-height: 40em; */
+    /* min-height: 200px; */
+    /* flex: 6; */
+    
+}
+
+
+footer{
+    margin: 0;
+    background-color: var(--backgroundColor);
+    min-height: 10vh;
+    flex: 1;
+    
+    
+}
+
+#wrapper{
+    height: 100vh;
+}
+
+
+#banner{
+    font-size: 285%;
+    margin: 0;
+    font-family: var(--font);   
+    text-align: center;
+    min-width: 100%;
+    color: rgb(255, 255, 255);
+    padding-bottom: .1em;
+}
+
+
+
+#left-main{
+    min-width: 40%;
+    font-family: var(--font);  
+    padding-left: 10vh;
+    
+}
+
+
+
+#img-content{
+    
+    max-width: 9em;
+    max-height: 6em;
+}
+
+#left-main-title{
+    font-size: 200%;
+    text-align: center;
+}
+
+#left-main-title-colorbox{
+    min-height: 2em;
+    background-color: var(--highlightColor);
+}    
+
+.now-again-with-emphasis{
+    font-weight: 600;
+}
+
+#right-main{
+    padding: 5% 1% 0 5%;
+    min-width: 20%;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#d-flex-main {
+    display: flex;
+    flex-direction: block;
+}
